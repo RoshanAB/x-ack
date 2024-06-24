@@ -1,0 +1,73 @@
+.xack {
+  position: absolute;
+  width: 100px;
+  height: 27px;
+  left: 649px;
+  top: 34px;
+
+  font-family: "Bruno Ace";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.outer {
+  position: absolute;
+  width: 1398px;
+  height: 640px;
+
+  left: calc(50% - 1398px / 2);
+  top: 40px;
+  background: #232323;
+  border-radius: 32px;
+}
+
+.line1 {
+  position: relative;
+  width: 1.56px;
+  height: 288px;
+  left: 79px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #39f9e2 0%, rgba(34, 147, 133, 0) 100%);
+}
+
+.line2 {
+  position: relative;
+  width: 1.56px;
+  height: 640px;
+  left: 96px;
+  top: -288px;
+
+  background: linear-gradient(180deg, #39f9e2 0%, rgba(34, 147, 133, 0) 100%);
+}
+
+.line3 {
+  position: relative;
+  width: 1.56px;
+  height: 640px;
+  left: 1300px;
+  top: -928px;
+
+  background: linear-gradient(180deg, rgba(34, 147, 133, 0) 0%, #39f9e2 100%);
+}
+
+.line4 {
+  position: relative;
+  width: 1.56px;
+
+  height: 288px;
+
+  left: 1315.6px;
+  top: -1216px;
+
+  background: linear-gradient(180deg, #39f9e2 0%, rgba(34, 147, 133, 0) 100%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+

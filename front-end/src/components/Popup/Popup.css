@@ -1,0 +1,94 @@
+.popup-bg {
+  position: absolute;
+  width: 516px;
+  height: 376px;
+  top: 125px;
+  left: 510px;
+}
+.firsthalf {
+  position: relative;
+  width: 258px;
+  height: 376px;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(to left, #39f9e2, #232323);
+}
+.secondhalf {
+  position: relative;
+  width: 258px;
+  height: 376px;
+  top: -376px;
+  left: 258px;
+  background: linear-gradient(to left, #232323, #39f9e2);
+}
+
+.popup {
+  position: relative;
+  width: 516px;
+  height: 370px;
+  top: -748px;
+  left: 0px;
+  background: #232323;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  z-index: 1000;
+}
+
+.popup-container {
+  backdrop-filter: blur(2px);
+}
+
+h3 {
+  position: relative;
+  width: 261px;
+  height: 63px;
+  left: 125px;
+  top: 27.3px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 62px;
+  margin: 0px;
+
+  color: #ffffff;
+}
+
+p {
+  position: relative;
+  width: 445px;
+  height: 115px;
+  left: 32px;
+  top: 44px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.ohk {
+  position: relative;
+  width: 160px;
+  height: 53px;
+  left: 180px;
+  top: 54px;
+
+  background: #39f9e2;
+  filter: none;
+}
